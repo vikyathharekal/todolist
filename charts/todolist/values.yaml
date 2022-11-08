@@ -1,8 +1,9 @@
 # Default values for todolist.
+
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-name: todolist-chart
+name: <+pipeline.stages.k8s.spec.manifests.m2.chartVersion>
 replicaCount: 1
 
 namespace: default
