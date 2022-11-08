@@ -3,7 +3,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-name: <+pipeline.stages.k8s.spec.manifests.a-b.chartVersion>
+name: <+pipeline.stages.k8s.spec.manifests.ab.chartVersion>
 replicaCount: 1
 
 namespace: default
