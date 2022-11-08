@@ -1,0 +1,2 @@
+name: <+stage.variables.resourceNamePrefix>
+image: <+pipeline.variables.registry>/+pipeline.variables.repo>:<+pipeline.variables.tag>

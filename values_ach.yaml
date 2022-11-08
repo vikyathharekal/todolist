@@ -1,0 +1,1 @@
+replicaCount: ${workflow.variables.replicas}
