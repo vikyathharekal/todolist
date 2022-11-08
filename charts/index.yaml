@@ -3,11 +3,11 @@ entries:
   todolist:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-11-08T11:49:00.573112+05:30"
+    created: "2022-11-08T12:18:53.030042+05:30"
     description: A Helm chart for Kubernetes
-    digest: f3d10462381956598b1acb9bf47b62b9ba83666164d417bd1cd4ba0b94f793fe
+    digest: 3ee5f12dcdc756b77fc5680cb99593316ea2d2111bfd961bac308321c1815b8c
     name: todolist
     urls:
     - todolist-0.2.0.tgz
     version: 0.2.0
-generated: "2022-11-08T11:49:00.572213+05:30"
+generated: "2022-11-08T12:18:53.028839+05:30"
