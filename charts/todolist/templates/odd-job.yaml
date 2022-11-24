@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: odd
+spec:
+  ttlSecondsAfterFinished: 60
+  template:
+    spec:
+      containers:
+      - name: odd
+        image: odd-even
+        imagePullPolicy: Never
+        command: [/odd-amd64-linux]
+      restartPolicy: Never
+  backoffLimit: 4
